@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { RepoSearchComponent } from './repo-search/repo-search.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
+import { BodyComponent } from './body/body.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    RepoSearchComponent
+    RepoSearchComponent,
+    BodyComponent
 
   ],
   imports: [
