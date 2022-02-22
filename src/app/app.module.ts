@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { BodyComponent } from './body/body.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppComponent,
     RepoSearchComponent,
     BodyComponent,
-    NavbarComponent
+    NavbarComponent,
+    NotFoundComponent
 
   ],
   imports: [
