@@ -8,7 +8,7 @@ import { UserServiceService } from '../Services/user-service.service';
 })
 export class RepoSearchComponent implements OnInit {
   repoitems: any[];
-  repoName:string= "Gilbert-Skyline-Pizza ";
+  repoName:string= "GitSearch";
 
   constructor(private UserServiceService: UserServiceService) { 
     
@@ -18,7 +18,7 @@ export class RepoSearchComponent implements OnInit {
     this.UserServiceService.UpdateRepo(this.repoName);
     this.UserServiceService.searchrepos().subscribe(repo => {
      
-      this.repoitems = repo["items"];
+      this.repoitems;
       console.log(this.repoitems);
     })
   }

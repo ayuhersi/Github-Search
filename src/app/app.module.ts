@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { BodyComponent } from './body/body.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { UserServiceService } from './Services/user-service.service';
 
 
 
@@ -27,7 +28,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [UserServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
