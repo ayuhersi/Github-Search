@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserServiceService } from '../Services/user-service.service';
+import { Repo } from '../repo';
+import { User } from '../user';
 
 @Component({
   selector: 'app-body',

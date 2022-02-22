@@ -7,6 +7,7 @@ import { RepoSearchComponent } from './repo-search/repo-search.component';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { BodyComponent } from './body/body.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -14,7 +15,8 @@ import { BodyComponent } from './body/body.component';
   declarations: [
     AppComponent,
     RepoSearchComponent,
-    BodyComponent
+    BodyComponent,
+    NavbarComponent
 
   ],
   imports: [
